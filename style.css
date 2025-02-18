@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, button{
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-wrap-mode: wrap;
+    text-align: center;
+    margin: 0% auto;
+    font-family: "Tiro Bangla", serif;
+}
+.quotes, .author{
+    font-size: 20px;
+}
+.author {
+    padding: 10px 23px;
+    border-radius: 6px;
+    background: rgb(0 255 128 / 35%);
+    margin: 40px 0 30px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./image/bg.jpg) no-repeat center;
+    background-size: cover;
+}
+#mail {
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    padding: 30px 20px;
+    border-radius: 16px;
+    background: rgb(0 0 0 / 16%);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    font-size: 16px;
+    padding: 10px 23px;
+    border-radius: 6px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
