@@ -1,0 +1,1 @@
+# js-quots-friends
